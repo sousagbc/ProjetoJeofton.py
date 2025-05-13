@@ -6,4 +6,4 @@ Este projeto consiste em uma calculadora interativa desenvolvida em Python, com 
 
 #Colaboradores
 
-Dupla : Gabriel Sousa Cavalcante Borges Gabriel Torres Tomas  
+Dupla : Gabriel Sousa Cavalcante Borges e Gabriel Torres Tomas  
