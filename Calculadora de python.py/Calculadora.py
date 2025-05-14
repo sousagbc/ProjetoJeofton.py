@@ -1,1 +1,1 @@
-A = int(input("digite um valor:"))
+A = int(input("digite um valor;"))
