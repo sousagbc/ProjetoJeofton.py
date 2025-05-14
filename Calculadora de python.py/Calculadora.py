@@ -1,1 +1,2 @@
-A = int(input("digite um valor;"))
+A = int(input("digite um valor:"))
+B = int(input("digite o seu segundo valor:"))
