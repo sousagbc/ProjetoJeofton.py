@@ -8,3 +8,5 @@ Este projeto consiste em uma calculadora interativa desenvolvida em Python, com 
 
 Dupla : Gabriel Sousa Cavalcante Borges e Gabriel Torres Tomas  
 RGM:43021654 e 43070400
+
+coloquei para testar no site 
