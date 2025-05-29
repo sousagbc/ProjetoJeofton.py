@@ -2,7 +2,7 @@
 
 #sobre o projeto
 
-Este projeto consiste em uma calculadora interativa desenvolvida em Python, com o objetivo de fornecer funcionalidades básicas de cálculo aritmético, juntamente com a capacidade de calcular áreas de formas geométricas simples e o Índice de Massa Corporal (IMC).O nome da calculadora é "DECISOR".
+Este projeto consiste em uma calculadora interativa desenvolvida em Python, com o objetivo de fornecer funcionalidades básicas de cálculo aritmético, o nome da calculadora é "DECISOR".
 
 #Colaboradores
 
