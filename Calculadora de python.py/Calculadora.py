@@ -24,9 +24,23 @@ Frame_tela.grid(row=0, column=0)
 Frame_corpo= Frame(janela,width=235, height=268)
 Frame_corpo.grid(row=1, column=0) 
 
-#criaçaõ do label
+#criação da função
+def entrar_valores(event):
+    resultado = eval('9/9')
 
-app_label = Label(Frame_tela, text= '123456789', width=16, height=2, padx=7, relief=FLAT, font='ivy 18', anchor="e", justify=RIGHT, bg=cor3)
+    #passando o valor para ir na tela
+    valor_texto.set(resultado)
+
+   
+
+
+
+
+#criaçaõ do label
+valor_texto = StringVar()
+
+
+app_label = Label(Frame_tela, textvariable= valor_texto, width=16, height=2, padx=7, relief=FLAT, font='ivy 18', anchor="e", justify=RIGHT, bg=cor3)
 app_label.place(x=0, y=0)
 
 
@@ -38,7 +52,7 @@ app_label.place(x=0, y=0)
 
 b_1= Button(Frame_corpo,text="C",width= 11, height=2, bg=cor4, font=("Ivy 13 bold"), fg=cor1, command=lambda: print("Limpar"))
 b_1.place(x=0, y=0)
-b_2= Button(Frame_corpo,text="%",width= 5, height=2 ,bg= cor5, font=("Ivy 13 bold"), fg=cor1, command=lambda: print("Porcentagem"))
+b_2= Button(Frame_corpo, command= lambda : entrar_valores('%') ,text="%",width= 5, height=2 ,bg= cor5, font=("Ivy 13 bold"), fg=cor1, )
 b_2.place(x=118, y=0)
 b_3 = Button(Frame_corpo, text="/", width=5, height=2, bg=cor5, font=("Ivy 13 bold"), fg=cor1, command=lambda: print("Divisão"))    
 b_3.place(x=177, y=0)
