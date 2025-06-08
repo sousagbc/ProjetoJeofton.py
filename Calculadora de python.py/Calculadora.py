@@ -24,6 +24,16 @@ Frame_tela.grid(row=0, column=0)
 Frame_corpo= Frame(janela,width=235, height=268)
 Frame_corpo.grid(row=1, column=0) 
 
+#criaçaõ do label
+
+app_label = Label(Frame_tela, text= '123456789', width=16, height=2, padx=7, relief=FLAT, font='ivy 18', anchor="e", justify=RIGHT, bg=cor3)
+app_label.place(x=0, y=0)
+
+
+
+
+
+
 #criando os botões
 
 b_1= Button(Frame_corpo,text="C",width= 11, height=2, bg=cor4, font=("Ivy 13 bold"), fg=cor1, command=lambda: print("Limpar"))
@@ -62,6 +72,7 @@ B_17 = Button(Frame_corpo , text=".", width=5,height=2, bg=cor2, font=("ivy 13 b
 B_17.place(x=118, y=202)
 B_18 = Button(Frame_corpo,text="=", width=5, height=2, bg= cor4, font=("ivy 13 bold"), fg=cor1, command=lambda:print("=")   )
 B_18.place(x=177, y=202)
+
 
 
 
