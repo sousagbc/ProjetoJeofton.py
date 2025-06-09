@@ -102,7 +102,7 @@ b_14 = Button(Frame_corpo,command= lambda : entrar_valores('3') ,text="3", width
 b_14.place(x=118, y=150)
 b_15 = Button(Frame_corpo,command= lambda : entrar_valores('+'), text="+", width=5, height=2, bg=cor5, font=("ivy 13 bold"), fg=cor1, )
 b_15.place(x=177, y=150)
-b_16 = Button(Frame_corpo, text="0", width=11, height=2 , bg=cor2, font=("ivy 13 bold"), fg=cor3, command=lambda:print("0"))
+b_16 = Button(Frame_corpo,command= lambda: entrar_valores('0'), text="0", width=11, height=2 , bg=cor2, font=("ivy 13 bold"), fg=cor3, )
 b_16.place(x=0, y=202)
 B_17 = Button(Frame_corpo ,command= lambda : entrar_valores('.'), text=".", width=5,height=2, bg=cor2, font=("ivy 13 bold"), fg=cor3, )
 B_17.place(x=118, y=202)
