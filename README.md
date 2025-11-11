@@ -4,7 +4,7 @@
 
 Este projeto consiste em uma calculadora interativa desenvolvida em Python, com o objetivo de fornecer funcionalidades básicas de cálculo aritmético ,o nome desta calculadora será : "DECISOR".
 
-# Biblioteca 
+#Blibioteca
 
 Tkinter
 
